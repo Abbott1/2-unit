@@ -1,0 +1,325 @@
+
+/*==============================================================
+                     BASE STYLES
+================================================================*/
+
+header {
+    padding: 11px;
+}
+
+img {
+    width: 100%;
+}
+
+body{
+    text-align: center;
+}
+
+p {
+    margin: 10px 24px;
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    margin-left: -64px;
+    margin-right: -64px;
+    margin-top: 6px;
+    background-color: rgb(244, 247, 248);
+}
+
+a {
+    color: black;
+}
+
+a:link {
+    
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+.b {
+    color: black;
+}
+
+/*==============================================================
+                     HEADER
+================================================================*/
+header {
+    background-color: rgb(241, 241, 243);
+}
+
+header p {
+    color: rgb(140, 146, 151);
+}
+
+.navigation1 {
+    display: inline-block;
+}
+
+.profile-photo {
+    width: 65%;
+    padding-top: 16px;
+}
+
+/*==============================================================
+                     MAIN CONTENT
+================================================================*/
+
+main h1 {
+    padding: 10px;
+}
+
+main p {
+     margin: 10px 24px;
+}
+
+img {
+    margin-top: 15px;
+}
+
+/*==============================================================
+                     FOOTER
+================================================================*/
+
+.main-footer ul {
+    display: none;
+}
+
+.main-footer {
+    background-color: rgb(241, 241, 243);
+    margin-top: 35px;
+    padding-top: 18px;
+}
+
+.contact-info {
+    margin: 19px;
+}
+
+.boarder-line {
+    border-top: 1px solid rgb(225, 224, 224);
+    margin-top: 45px;
+}
+
+.boarder-line h1 {
+    display: block;
+    float: left;
+    margin-left: 8px;
+    padding-top: 10px;
+}
+
+.back-to-top {
+    display: block;
+    float: right;
+    margin-top: 12px;
+    margin-right: 8px;
+    padding-top: 10px;
+}
+
+/* display nav bar in media queries  */
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+@media (min-width: 768px) {
+    
+/*==============================================================
+                     HEADER
+================================================================*/
+
+
+    li {
+        float: left;
+        padding: 0;
+        margin: 20px;
+    }
+
+    .profile-photo {
+        display: block;
+        float: right;
+        width: 38%;
+        margin: 0;
+        padding: 15px;
+    }
+
+    .intro-header p {
+        display: block;
+        float: left;
+        width: 50%;
+        font-size: 23px
+    }
+
+/*==============================================================
+                     MAIN CONTENT
+================================================================*/
+    
+    main {
+        margin: 20px;
+    }
+
+    main h2 {
+        margin: 31px;
+    }
+
+    .a, .b,
+    .c, .d,
+    .e, .f {
+        display: block;
+        width: 49%;
+        margin: 0;
+    }
+
+    .a {
+        float: left;
+        margin-right: 0;
+    }
+
+    .b {
+        float: right;
+        padding: 0;
+        margin: 0;
+    }
+
+    .c {
+        float: left;
+        margin-top: 20px;
+        padding: 0;
+    }
+
+    .d {
+        float: right;
+        margin-top: 20px;
+    }
+
+    .e {
+        float: left;
+        margin-top: 20px;
+        padding: 0;
+    }
+
+    .f {
+        float: right;
+        margin-top: 20px;
+        padding: 0;
+    }
+
+    /*==============================================================
+                     FOOTER
+    ===================================================================*/
+
+    .back-to-top {
+        display: none;
+    }
+
+    .main-footer ul {
+        display: block;
+        float: right;
+    }
+
+    .main-footer h1 {
+        margin: 33px;
+    }
+}
+
+@media (min-width: 1024px) {
+    
+    /*==============================================================
+                         HEADER
+    ================================================================*/
+
+   .navigation1 {
+       display: block;
+       padding: 22px;
+       margin: 0;
+   }
+   
+    header li {
+        float: right;
+        margin: 10px;
+        padding: 5px;
+    }
+
+    header h2 {
+        display: block;
+        float: left;
+        margin-top: 35px;
+        padding: 0;
+    }
+
+    /*==============================================================
+                         MAIN CONTENT
+    ================================================================*/
+
+    main {
+      background-color: #faf9f9; 
+      margin: 20px;
+      padding: 10px; 
+      position: relative;
+    }
+
+    body {
+        background-color: rgb(241, 241, 243); 
+    }
+
+    .a, .b,
+    .c, .d,
+    .e, .f {
+        width: 32%;
+        margin: 6px;
+        margin-top: 8px;
+    }
+
+    .b {
+        position: absolute;
+        right: 329px;
+    }
+
+    .c {
+        position: absolute;
+        top: 99px;
+        bottom: 336px;
+        right: 5px;
+    }
+    
+    .d {
+        position: absolute;
+        top: 419px;
+        left: 0;
+    }
+
+    .f {
+        position: absolute;
+        top: 418px;
+        left: 654px;
+    }
+
+    .e {
+        position: absolute;
+        top: 418px;
+        left: 328px;
+    }
+
+    .main-footer {
+       
+    }
+
+}
