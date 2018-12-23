@@ -117,7 +117,7 @@ img {
     margin-top: 45px;
 }
 
-.boarder-line h1 {
+.boarder-line h2 {
     display: block;
     float: left;
     margin-left: 8px;
@@ -127,7 +127,7 @@ img {
 .back-to-top {
     display: block;
     float: right;
-    margin-top: 12px;
+    margin-top: 24px;
     margin-right: 8px;
     padding-top: 10px;
 }
@@ -250,8 +250,24 @@ img {
        display: block;
        padding: 22px;
        margin: 0;
+       position: relative;
    }
    
+   .home {
+       position: absolute;
+       left: 744px;
+   }
+
+   .portfolio {
+       position: absolute;
+       left: 817px;
+   }
+
+   .contact {
+       position: absolute;
+       left: 903px;
+   }
+
     header li {
         float: right;
         margin: 10px;
@@ -320,7 +336,13 @@ img {
     }
 
     .main-footer {
-       
+       position: relative;
+    }
+
+    .main-footer h2 {
+        position: absolute;
+        left: 36px;
+        bottom: 7px;
     }
 
 }
