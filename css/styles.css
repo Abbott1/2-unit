@@ -286,34 +286,35 @@ img {
         width: 32%;
         margin: 6px;
         margin-top: 8px;
+        display: inline-block;
     }
 
     .b {
-        position: absolute;
+        position: static;
         right: 329px;
     }
 
     .c {
-        position: absolute;
+        position: static;
         top: 99px;
         bottom: 336px;
         right: 5px;
     }
     
     .d {
-        position: absolute;
+        position: static;
         top: 419px;
         left: 0;
     }
 
     .f {
-        position: absolute;
+        position: static;
         top: 418px;
         left: 654px;
     }
 
     .e {
-        position: absolute;
+        position: static;
         top: 418px;
         left: 328px;
     }
